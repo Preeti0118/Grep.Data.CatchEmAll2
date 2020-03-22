@@ -1,26 +1,55 @@
 # Part 1
 ### a)
-
-
-
+ggrep -r -P "blas" forest > blastiose.txt
+ggrep -r -P "beed" forest > beedrill.txt
+ggrep -r -P "bulb" forest > bulbasaur.txt
+ggrep -r -P "butt" forest > butterfree.txt
+ggrep -r -P "izard" forest > charizard.txt
+ggrep -r -P "mander" forest > charmander.txt
+ggrep -r -P "meleon" forest > charmeleon.txt
+ggrep -r -P "ivy" forest > ivysaur.txt
+ggrep -r -P "puff" forest > jigglypuff.txt
+ggrep -r -P "meow" forest > meowth.txt
+ggrep -r -P "psyd" forest > psyduck.txt
+ggrep -r -P "squi" forest > squirtle.txt
+ggrep -r -P "venu" forest > venusaur.txt
+ggrep -r -P "wart" forest > wartortle.txt
 
 ### b)
 
-
+created captured directory.
+moved individual pokemon .txt files to captured directory.
 
 ### c)
 
-
-
-
-
-
-
-
-
-
-
-
+ggrep -rl -P "blas" forest
+found in file 1
+ggrep -rl -P "beed" forest
+found in file 1
+ggrep -rl -P "bulb" forest
+found in file 1
+ggrep -rl -P "butt" forest
+found in file 1
+ggrep -rl -P "izard" forest
+found in file 2
+ggrep -rl -P "mander" forest
+found in file 2
+ggrep -rl -P "meleon" forest
+found in file 2
+ggrep -rl -P "ivy" forest
+found in file 3
+ggrep -rl -P "puff" forest
+found in file 3
+ggrep -rl -P "meow" forest
+found in file 3
+ggrep -rl -P "psyd" forest
+found in file 4
+ggrep -rl -P "squi" forest
+found in file 4
+ggrep -rl -P "venu" forest
+found in file 4
+ggrep -rl -P "wart" forest
+found in file 4
 
 # Part 2
 ### a)
